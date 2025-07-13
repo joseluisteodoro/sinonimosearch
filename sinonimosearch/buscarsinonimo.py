@@ -25,6 +25,5 @@ def buscarporpalavra(palavra):
     for s in sinonimos:
         print(f"\t• {s}")
     print("-"*40 + f"\n Total encontrados: {len(sinonimos)}\n")
-
-buscarporpalavra("tornado")
+    
     

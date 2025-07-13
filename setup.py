@@ -6,11 +6,11 @@ with open("README.md", "r") as f:
 with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
-setup (name="sinonimosearch",
+setup (name="package_name",
     version="0.0.1",
-    author="jose",
-    author_email="joselteodoro2@gmail.com",
-    description="buscador de sinonimo",
+    author="José Luis Teodoro",
+    author_email="none",
+    description="Buscar de Sinônimos em ptbr",
     long_description=page_description,
     long_description_content_type="text/markdown",
     url="https://github.com/joseluisteodoro/sinonimosearch/tree/master",
